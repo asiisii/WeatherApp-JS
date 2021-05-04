@@ -1,0 +1,162 @@
+/* ----------------Desktops ---------------*/
+
+@media screen and (max-width: 1350px) {
+
+  main {
+    height: 90vh;
+    margin: 4% 20%;
+  }
+
+  .today-caption {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  main {
+    height: 90vh;
+    margin: 4% 20%;
+  }
+
+  .mini-icon {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .today-caption {
+    padding-top: 10px;
+  }
+}
+
+
+/* ----------------Laptop ---------------*/
+
+@media screen and (max-width: 1024px) {
+
+  main {
+    height: 90vh;
+    margin: 5% 15%;
+  }
+
+  .today-caption {
+    padding-top: 10px;
+  }
+}
+
+/* ----------------Tablet ---------------*/
+
+@media screen and (max-width: 768px) {
+  main {
+    height: 90vh;
+    /* margin: 4% 20%; */
+  }
+
+  .search {
+    width: 30%;
+  }
+  main {
+    margin: 5% 15%;
+  }
+
+  .mini-icon {
+    height: 70px;
+    width: 70px;
+  }
+
+  .today-caption {
+    padding-top: 10px;
+  }
+
+}
+
+@media screen and (max-width: 670px) {
+
+  main {
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
+
+}
+
+/* ------Mobile L ---------------*/
+
+@media screen and (max-width: 465px) {
+
+  main {
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  header {
+    padding-top: 10%;
+  }
+
+  .search {
+    width: 28%;
+  }
+
+  .today-container {
+    padding-top: 20%;
+  }
+
+  .icon {
+    width: 135px;
+    height: 135px;
+  }
+
+  .temp {
+    font-size: 90px;
+  } 
+
+  .mini-icon {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .today-caption {
+    padding-top: 40px;
+    font-size: 17px;
+  }
+
+  p {
+    padding: 10px;
+  }
+
+  .forecast-container {
+    margin-top: 20%;
+    padding: 2%;
+  }
+
+  .mini-cap {
+    font-size: 14px;
+  }
+
+}
+
+/* ----------------Mobile S ---------------*/
+
+@media screen and (max-width:375px) {
+
+  /* main {
+    height: 100vh;
+    margin: 0;
+    border-radius: 0;
+  } */
+
+  .search {
+    width: 35%;
+  }
+
+  .temp {
+    font-size: 90px;
+  }
+
+  .icon {
+    width: 105px;
+    height: 105px;
+  }
+
+}

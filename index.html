@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Weather App">
+    <meta name="keywords" content="HTML, CSS, JavaScript, API, Weather App, asiisii">
+    <meta name="author" content="Ashish Malla, asiisii">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <input class="search" id="search" 
+        type="text" name="search" 
+        placeholder="Search by city..."
+        autocomplete="off" autofocus>
+        <div>
+          <button class="btn" id="imperial">°F</button>
+          <button class="btn" id="metric">°C</button>
+        </div>
+      </header>
+      <p class="js-error" id="jsError"></p>
+    <section class="today-container" id="todayContainer"></section>
+    <section class="forecast-container" id="forecastContainer"></section>
+  </main>
+  <script src="https://unpkg.com/dayjs"></script>
+  <script src="./src/apiCalls.js"></script>
+  <script src="./src/domUpdates.js"></script>
+  <script src="./src/main.js"></script>
+</body>
+</html>

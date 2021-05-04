@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overscroll-behavior: none;
+  overflow: hidden;
+}
+
+main {
+  height: 83vh;
+  margin: 5% 31%;
+  border-radius: 2rem;
+}
+
+/* ------------------header section start-----------------*/
+header {
+  padding: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search, 
+.btn {
+  border: none;
+  padding: 10px;
+  font-size: 13px;
+  background-color: transparent;
+}
+
+.search {
+  width: 20%;
+  outline: none;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+  box-shadow: 0 5px rgba(0,0,0,0.2);
+  border-bottom: 2.5px solid rgb(92, 83, 83);
+}
+
+.btn {
+  cursor: pointer;
+  padding: 5px 5px;
+  transition-duration: 0.5s;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+}
+
+.search, 
+.btn, 
+::placeholder { 
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  background: lightgray;
+}
+
+.btn:focus {
+  background-color: rgb(14, 14, 190);
+}
+
+.search:hover {
+  width: 40%;
+  border-color: rgb(14, 14, 190);
+}
+
+/* ----------------container section start---------------*/
+.today-container {
+  padding: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  padding: 5px;
+}
+
+.date {
+  font-size: 17px;
+  color: rgba(36, 34, 34, 0.4);
+}
+
+.temp {
+  font-size: 120px;
+}
+
+figure {
+  text-align: center;
+}
+
+.icon {
+  width: 207px;
+  height: 200px;
+}
+
+p, .today-caption {
+  color: white;
+  font-size: 20px;
+}
+
+/* ----------------forcast section start---------------*/
+.forecast-container {
+  margin-top: 5%;
+  padding: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mini-icon {
+  height: 90px;
+  width: 90px;
+}
+
+/* ----------------Error msg start---------------*/
+.js-error {
+  text-align: center;
+  font-size: 500%;
+  top: 50%;
+  left: 50%;
+}
