@@ -9,8 +9,7 @@
   - [Technologies used](#technologies-used)
   - [Instructions for running project](#instructions-for-running-project)
   - [Want to contribute?](#want-to-contribute)
-          - [This project was created by Ashish Malla](#this-project-was-created-by-ashish-malla)
-          - [2021/05/03](#20210503)
+        
 
 ## Overview and goal
 Simple weather app that's lets user search weather by a city name using openweathermap's API. <br>
